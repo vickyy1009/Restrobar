@@ -1,0 +1,115 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: white
+}
+/*nav bars*/
+nav:hover {
+    color: aqua;
+    transition: 1s;
+}
+nav {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+ul,h1,li {
+    display: inline;
+
+}
+
+li {
+    color: grey;
+    cursor: pointer;
+}
+
+li:hover {
+    color: aqua;
+    
+}
+
+ul {
+    margin-left: 75%;
+}
+/*searchbars*/
+
+input:hover {
+    background-color: black;
+    color: aqua;
+}
+
+input {
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%; 
+}
+
+.searchbar {
+    text-align: center;
+    padding: 30px;
+}
+
+/*products*/
+
+.title {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+.box:hover {
+    background-color: black;
+    color: aqua;
+    transition: 1s;
+}
+.box {
+    display: inline-block;
+    border-color: black;
+    border: 5px;
+    border-width: 2px;;
+    border-style: solid;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.products {
+    text-align: center;
+}
+
+/*about*/
+
+.about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about p:hover {
+    background-color: black;
+    color: aqua;
+    transition: 1s;
+}
+
+.about p {
+    margin-top: 5px;
+    margin-left: 24.5%;
+    padding: 10px;
+    border: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 50%;
+}
+
+/*contact*/
+.contact {
+    text-align: center;
+    margin-top: 10px;
+}
